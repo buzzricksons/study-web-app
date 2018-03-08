@@ -16,6 +16,6 @@ public class Exam5RestController {
      */
     @RequestMapping(value = "/get_dummy_json_data", produces = MediaType.APPLICATION_JSON_VALUE)
     public Map home() {
-        return Collections.singletonMap("response", "Star wars.");
+        return Collections.singletonMap("response", "Star wars");
     }
 }
