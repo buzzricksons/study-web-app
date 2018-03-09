@@ -15,6 +15,6 @@ public class Exam5RestController {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return time;
+        return String.format("%s seconds later", time);
     }
 }
