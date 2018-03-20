@@ -2,7 +2,7 @@
 ## テスト用の簡単なウェブアプリケーション
 利用したフレームワークおよび言語
 - Java 8
-- Spring Boot
+- Spring Boot 1.5
 - MyBatis
 - Maven
 - Flyway(DBマイグレーション)
